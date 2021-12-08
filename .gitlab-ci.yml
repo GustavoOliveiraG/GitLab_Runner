@@ -4,7 +4,7 @@ stages:
 test:
   stage: test
   tags:
-    - Manual
+    - manual
   script:
     - echo "Teste Automatico"
     - echo "Runner OK"
