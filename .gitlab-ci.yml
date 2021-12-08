@@ -1,0 +1,10 @@
+stages:
+  - test
+
+test:
+  stage: test
+  tags:
+    - Manual
+  script:
+    - echo "Teste Automatico"
+    - echo "Runner OK"
